@@ -7,7 +7,6 @@ export default function SearchBar(props) {
 
    const handleChange = (e) => {
       const { value } = e.target;
-      console.log(value)
       setCharacter(value)
    }
 
